@@ -1,0 +1,48 @@
+/* Import PT Serif (main font) and Tangerine (for "create order out of complexity") */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Tangerine:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'PT Serif', serif; /* Apply PT Serif globally */
+  color: #ccd6f6;
+  background-color: #0a192f;
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #0a192f, #112240);
+  text-align: center;
+}
+
+/* Main Name */
+.hero h1 {
+  font-size: 64px;
+  margin: 0;
+  color: #ccd6f6;
+}
+
+/* Subtitle */
+.hero h2 {
+  font-size: 24px;
+  margin: 10px 0 20px;
+  color: #8892b0;
+}
+
+/* Punchline Styling */
+.hero .quote {
+  font-family: 'PT Serif', serif;
+  font-size: 24px;
+  color: #64ffda;
+}
+
+/* Apply 'Tangerine' to "create order out of complexity" */
+.hero .quote .cursive {
+  font-family: 'Tangerine', cursive;
+  font-size: 34px; /* Slightly larger for emphasis */
+}
