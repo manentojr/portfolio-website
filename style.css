@@ -46,3 +46,115 @@ body {
   font-family: 'Tangerine', cursive;
   font-size: 34px; /* Slightly larger for emphasis */
 }
+
+
+/* ========================= */
+/*     CONTACT PAGE STYLE    */
+/* ========================= */
+
+body.contact {
+  background-color: #fdf1e3; /* Light cream background */
+  color: #3b2b1e; /* Deep brown text */
+}
+
+body.contact .contact-section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 4rem 1rem 2rem;
+  text-align: center;
+}
+
+body.contact h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  border-bottom: 2px solid #3b2b1e;
+  display: inline-block;
+  padding-bottom: 0.4rem;
+}
+
+body.contact .subtitle {
+  font-style: italic;
+  color: #3b2b1e;
+  margin-bottom: 2rem;
+}
+
+body.contact .contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: left;
+}
+
+body.contact .contact-form label {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+body.contact .contact-form input,
+body.contact .contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-bottom: 2px solid #3b2b1e;
+  background: transparent;
+  color: #3b2b1e;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+body.contact .contact-form input:focus,
+body.contact .contact-form textarea:focus {
+  outline: none;
+  border-bottom: 2px solid #7a5c3f;
+}
+
+body.contact .contact-form button {
+  background-color: #3b2b1e;
+  color: #fdf1e3;
+  border: none;
+  padding: 0.75rem 2rem;
+  margin: 1rem auto 0;
+  display: block;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+body.contact .contact-form button:hover {
+  background-color: #5b4331;
+}
+
+/* Footer */
+body.contact footer.footer {
+  background-color: #3b2b1e;
+  color: #fdf1e3;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+body.contact .social-icons {
+  margin-bottom: 0.8rem;
+}
+
+body.contact .social-icons a {
+  margin: 0 0.5rem;
+  display: inline-block;
+}
+
+body.contact .social-icons img {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1);
+  transition: opacity 0.3s ease;
+}
+
+body.contact .social-icons a:hover img {
+  opacity: 0.7;
+}
+
+body.contact footer p {
+  font-size: 0.9rem;
+}
