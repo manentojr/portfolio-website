@@ -1,18 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="auto">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ray Manento — Software & Data Engineer</title>
+  <meta name="description" content="Software & Data Engineer. Recent Computer Science graduate. I build web, data, and AI solutions that are functional, clear, and impactful." />
+  <meta name="theme-color" content="#000000" id="theme-color-meta"/>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <!-- Styles -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Hero Section -->
-  <div class="hero">
-    <h1>Raymond Manento</h1>
-    <h2>Data and Software Engineer</h2>
-    <h3 class="quote">I build, rebuild, and <span class="cursive">create order out of complexity...</span></h3>
+  <div class="wrap">
+    <aside>
+      <div class="brand">
+        <h1>Ray Manento</h1>
+        <div class="role">Software & Data Engineer · Recent CS Graduate</div>
+      </div>
+
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#thoughts">Thoughts</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="controls">
+        <div class="toggle" aria-label="Appearance">
+          <button id="themeBtn" class="switch" role="switch" aria-checked="false" aria-label="Toggle dark mode"></button>
+          <span id="themeLabel">Auto</span>
+        </div>
+      </div>
+
+      <div class="social" aria-label="Social links">
+        <a href="https://github.com/manentojr" target="_blank" rel="noopener">
+          <i class="fab fa-github social-icon"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/raymond-manento-76b8a1204/" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin social-icon"></i> LinkedIn
+        </a>
+      </div>
+    </aside>
+
+    <main>
+      <article id="about" class="content card" aria-labelledby="about-title">
+        <h2 id="about-title">About</h2>
+        <p>I’m a Software and Data Engineer passionate about turning complex problems into solutions that are both functional and easy to understand. My work spans web development, data analytics, and machine learning from building university landing pages that raised over $20,000 in donations to designing AI tools that transform raw data into clear, actionable insights.</p>
+        <p>I approach every build with a balance of technical precision and structured communication. Beyond writing code, I create detailed project documentation and write-ups that map out the “what,” “why,” and “how,” ensuring stakeholders and teams stay aligned from start to finish.</p>
+        <p class="muted">Outside of tech, I stay sharp through weightlifting, basketball, and soccer. Disciplines that keep me competitive and consistent. I also spend time reading and writing, which helps me think differently and bring fresh perspective to the problems I tackle.</p>
+      </article>
+
+      <section id="thoughts" class="content" aria-labelledby="thoughts-title" style="margin-top:32px;">
+        <h2 id="thoughts-title">Thoughts</h2>
+        <div class="thoughts-grid">
+          <article class="thought-card">
+            <h3>Building with Purpose</h3>
+            <p class="muted">How I approach technical problems with both precision and clarity. Every solution starts with understanding the "why" before diving into the "how."</p>
+            <span class="thought-date">Coming Soon</span>
+          </article>
+          <article class="thought-card">
+            <h3>The Real MVP: Minimum Viable "Precision"</h3>
+            <p class="muted">During WINS development, I realized that overbuilding kills momentum.</p>
+            <span class="thought-date">Coming Soon</span>
+          </article>
+          <article class="thought-card">
+            <h3>Clarity as a Skill</h3>
+            <p class="muted">Whether it's code, visuals, or communication, I've learned that clarity multiplies the impact of everything I do.</p>
+            <span class="thought-date">Coming Soon</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="content" aria-labelledby="projects-title" style="margin-top:32px;">
+        <h2 id="projects-title">Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Andrews University Landing Page</h3>
+            <p>Built a donation landing page that raised over $20,000 for university initiatives. Focused on clear messaging and seamless user experience.</p>
+            <div class="project-tags">
+              <span class="tag">Web Development</span>
+              <span class="tag">UI/UX</span>
+              <span class="tag">Fundraising</span>
+            </div>
+            <span class="project-status">Case Study Coming Soon</span>
+          </article>
+          <article class="project-card">
+            <h3>WINS App (Reflective Social Platform)</h3>
+            <p>Building WINS, a space to share wins and reflect. I'm behind the concept, the design, and the development of the first version from the ground up.</p>
+            <div class="project-tags">
+              <span class="tag">Startup</span>
+              <span class="tag">UI/UX</span>
+              <span class="tag">Brand Strategy</span>
+            </div>
+            <span class="project-status">Case Study Coming Soon</span>
+          </article>
+          <article class="project-card">
+            <h3>Automation System for Car Dealership</h3>
+            <p>Leading the build of AI agents and smart automations for Time Motors Sales, a car dealership. The goal: reduce all manual work and increase efficiency.</p>
+            <div class="project-tags">
+              <span class="tag">AI Agents</span>
+              <span class="tag">Automation</span>
+              <span class="tag">Workflow Design</span>
+            </div>
+            <span class="project-status">Case Study Coming Soon</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="content" aria-labelledby="contact-title" style="margin-top:32px;">
+        <h2 id="contact-title">Contact</h2>
+        <p>Reach out at <a href="mailto:manentojr@gmail.com">manentojr@gmail.com</a>.</p>
+      </section>
+    </main>
   </div>
 
+  <!-- Scripts -->
+  <script src="script.js"></script>
 </body>
 </html>
